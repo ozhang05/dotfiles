@@ -25,5 +25,5 @@ vim.opt.foldmethod = "expr"
 vim.opt.foldlevel = 99
 
 -- misc
-vim.opt.clipboard = "unnamed"
+vim.opt.clipboard = "unnamedplus"
 -- vim.opt.eadirection = "hor"
