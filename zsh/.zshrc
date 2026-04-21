@@ -5,6 +5,7 @@ alias pip="pip3"
 # work aliases
 alias code="cd ~/personal/code"
 alias config="cd ~/.config/nvim"
+alias nrs="sudo nixos-rebuild switch"
 
 # >>> mamba initialize >>>
 # !! Contents within this block are managed by 'micromamba shell init' !!
