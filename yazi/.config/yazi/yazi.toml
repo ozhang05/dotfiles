@@ -1,0 +1,18 @@
+# yazi.toml
+[mgr]
+show_hidden = true
+
+[opener]
+edit = [
+    { run = "$EDITOR %s", block = true }
+]
+# open = [
+#     { run = "xdg-open %s", block = true }
+# ]
+
+[open]
+rules = [
+    { mime = "text/*", use = "edit" },
+    # { mime = "inode/directory", use = "open" }
+]
+
